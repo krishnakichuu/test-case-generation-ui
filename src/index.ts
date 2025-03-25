@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import fs from "fs";
 import path from "path";
-import { generateTestFile } from "./generateTestFile";
+import { generateTestFile } from "./generateTestFile.js";
 
 async function main() {
   const userFilePath = process.argv[2];
